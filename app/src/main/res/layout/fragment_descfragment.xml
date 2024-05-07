@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".descfragment"
+    android:background="@color/docdetails">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            app:srcCompat="@drawable/_1_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/ima"
+            android:layout_width="wrap_content"
+            android:layout_height="507dp"
+            android:layout_below="@id/image2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/rectangle_33" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="-75dp"
+            android:padding="8dp"
+            android:text="This is demo name"
+            android:textColor="@color/endc"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/qualification"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/name"
+            android:layout_alignTop="@id/name"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="86dp"
+            android:layout_marginEnd="61dp"
+            android:padding="8dp"
+            android:text="This is demo qualification"
+            android:textColor="@color/endc"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/clinicaddress"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/qualification"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="61dp"
+            android:padding="8dp"
+            android:text="This is demo clinic address"
+            android:textColor="@color/endc"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/experience1"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/qualification"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="61dp"
+            android:padding="8dp"
+            android:text="This is demo experience"
+            android:textColor="@color/endc"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/charges"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="33dp"
+            android:padding="8dp"
+            android:text="This is demo charges"
+            android:textColor="@color/endc"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

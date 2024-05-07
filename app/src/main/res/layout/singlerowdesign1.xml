@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardMaxElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pro"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="122dp"
+            app:srcCompat="@drawable/finalll_removebg_preview" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/image1"
+            android:padding="10dp"
+            android:text="This is demo name"
+            android:textColor="@color/docnamecolor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookbtn"
+            android:layout_width="143dp"
+            android:layout_height="56dp"
+            android:layout_below="@+id/name1"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="26dp"
+            android:layout_toRightOf="@+id/image1"
+            android:padding="10dp"
+            android:text="BOOK APPOINTMENT "
+            android:textColor="@color/endc"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

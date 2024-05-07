@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".btnselection"
+    android:background="@color/btnselectionback">
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="298dp"
+        android:layout_height="258dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        app:srcCompat="@drawable/group_54" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="377dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_39" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="369dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/select_day_and_time_for_book_appointment" />
+
+    <Button
+        android:id="@+id/today"
+        android:layout_width="111dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="380dp"
+        android:text="TODAY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/dayandtimebtn"
+        android:textColor="@color/dayandtimebtntextcolor"/>
+
+    <Button
+        android:id="@+id/conform"
+        android:layout_width="219dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="16dp"
+        android:text="CONFORMATION"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/btnconfom"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+       />
+
+    <Button
+        android:id="@+id/time3"
+        android:layout_width="111dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/dayandtimebtn"
+        android:text="4:00 PM"
+        android:textColor="@color/dayandtimebtntextcolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/time4"
+        android:layout_width="111dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/dayandtimebtn"
+        android:text="5:30 PM"
+        android:textColor="@color/dayandtimebtntextcolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/time2"
+        android:layout_width="111dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="212dp"
+        android:text="12:30 PM"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/dayandtimebtn"
+        android:textColor="@color/dayandtimebtntextcolor"/>
+
+    <Button
+        android:id="@+id/time1"
+        android:layout_width="111dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="212dp"
+        android:text="10:30 AM"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/dayandtimebtn"
+        android:textColor="@color/dayandtimebtntextcolor"/>
+
+    <Button
+        android:id="@+id/dayafter"
+        android:layout_width="111dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="292dp"
+        android:text="DAY AFTER TOMORROW"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/dayandtimebtn"
+        android:textColor="@color/dayandtimebtntextcolor"/>
+
+    <Button
+        android:id="@+id/tomorrow"
+        android:layout_width="111dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="380dp"
+        android:text="TOMORROW"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/dayandtimebtn"
+        android:textColor="@color/dayandtimebtntextcolor"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

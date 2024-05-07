@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'  // Use a specific version for clarity
+    id 'com.google.gms.google-services' // Assuming you have the Google Services plugin configured
+}
+
+android {
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.doctorpoint"
+        namespace 'com.example.doctorpoint'
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false // Consider enabling minification for smaller release builds
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:33.0.0')
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // Firebase dependencies (assuming you have a valid configuration)
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-database:21.0.0'
+
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-database")
+    implementation ('com.firebaseui:firebase-ui-database:8.0.0')
+
+
+    implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
+
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="startc">#BBDBF5</color>
+    <color name="centerc">#97c7f4</color>
+    <color name="endc">#54A4F3</color>
+    <color name="docstatusbar">#A7D4FF</color>
+    <color name="pviewdocpro">#F6FDFF</color>
+    <color name="docmiddle">#F5E5E7</color>
+    <color name="pro">#FFE9E8</color>
+    <color name="docnamecolor">#005267</color>
+    <color name="docdetails">#F5FFFC</color>
+    <color name="phomepageback">#FFF7F6</color>
+    <color name="pnotibtn">#9DF6F4</color>
+    <color name="pnotibtntext">#2EABA8</color>
+    <color name="pdocviewbtn">#F5FFFC</color>
+    <color name="docviewbtntext">#FFB6AC</color>
+    <color name="docbookbtn">#17A2DE</color>
+    <color name="docbookbtntext">#E4F7FF</color>
+    <color name="btnselectionback">#F5FFFC</color>
+    <color name="dayandtimebtn">#FFFEDE</color>
+    <color name="dayandtimebtntextcolor">#8F9EFF</color>
+    <color name="btnconfom">#63ACF4</color>
+    <color name="notificationcolor">#E4F0F8</color>
+
+</resources>
