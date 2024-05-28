@@ -40,12 +40,6 @@ Note: The google-services.json file, which contains the Firebase connection conf
 
 Contributions to Doctor's Point are welcome! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request. Be sure to follow the project's coding conventions and guidelines.
 
-**License:**
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-**Authors:**
-Deep Bhupatkar 
-
 **Contact:**
 For any inquiries or support, please contact bhupatkardeep@gmail.com
 
